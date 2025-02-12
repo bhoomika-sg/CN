@@ -1,6 +1,6 @@
 import socket
 
-server_address = ('192.168.217.26', 12345)
+server_address = ('server_address', 12345)
 
 # Creating a UDP client socket
 client_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
